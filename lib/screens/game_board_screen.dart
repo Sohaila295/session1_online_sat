@@ -20,6 +20,7 @@ class GameBoardScreenState extends State<GameBoardScreen> {
   Widget build(BuildContext context) {
     GameBoardArguments args = ModalRoute.of(context)!.settings.arguments as GameBoardArguments ;
     return Scaffold(
+      backgroundColor: Colors.blue,
       appBar: AppBar(
         title: Text("Calculator"),
       ),
